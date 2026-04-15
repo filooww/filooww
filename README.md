@@ -11,7 +11,6 @@
 ### Languages
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![C/C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 ### Tools & Platforms
@@ -20,21 +19,27 @@
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 ![macOS](https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 
 ### Learning
-![FastAPI](https://img.shields.io/badge/FastAPI-009485?style=for-the-badge&logo=fastapi&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-FF671F?style=for-the-badge&logo=jetbrains&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 
 ---
 
 ## 🎯 What I'm Working On
 
-- 🔧 Automating workflows with **Bash** and **Python**
-- 🐳 Learning **Docker** and containerization deeply
-- 🐧 Practicing **Linux system administration** on VMs
-- 🚀 Building backend projects with **FastAPI** and **Node.js**
-- 📚 Preparing for **junior DevOps engineer** roles
+- 🔧 Automating infrastructure and workflows with **Bash** and **Python**
+- 🐳 Building and managing containers with **Docker**
+- 🐧 Setting up and administering **Linux servers** (Ubuntu/CentOS)
+- ☁️ Learning **AWS** cloud services and deployment
+- 🧱 Exploring **Kubernetes** for container orchestration
+- 🏗️ Writing **Terraform** code for infrastructure as code (IaC)
+- 🤖 Automating configurations with **Ansible**
+- 🚀 Setting up **CI/CD pipelines** for automated testing and deployment
 
 ---
 
