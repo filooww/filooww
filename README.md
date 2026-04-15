@@ -1,14 +1,60 @@
-### Hi there 👋, my name is Ivan
-#### **DevOps Engineer**
-![**DevOps Engineer**](https://arturssmirnovs.github.io/github-profile-readme-generator/images/banner.png)
+# 👋 Hi, I'm Ivan Pavlenko
 
+🚀 Junior Developer turning into **DevOps Engineer**  
+📍 Based in **Plovdiv, Bulgaria**  
+💻 Passionate about **Linux**, **Docker**, **Python**, **Bash**, and **automation**
 
-I'm a **Junior Developer** based in **Plovdiv, Bulgaria**, actively transitioning into **DevOps Engineering**.  
-I'm passionate about **automation**, **Linux system administration**, and building **reliable infrastructure** with **Docker**, **Python**, and **Bash**.
+---
 
-Skills: Python | AWS | Linux | Docker | GitLab CI | Terraform | JavaScript | Ansible | Kubernates
+## 🛠️ Tech Stack
 
+### Languages
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![C/C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
+### Tools & Platforms
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![macOS](https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white)
 
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/https://github.com/filooww)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/www.linkedin.com/in/ivan-pavlenko-devops/)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg' alt='instagram' height='40'>](https://www.instagram.com/https://www.instagram.com/ivan_pawlenko.c//)  
+### Learning
+![FastAPI](https://img.shields.io/badge/FastAPI-009485?style=for-the-badge&logo=fastapi&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-FF671F?style=for-the-badge&logo=jetbrains&logoColor=white)
 
+---
+
+## 🎯 What I'm Working On
+
+- 🔧 Automating workflows with **Bash** and **Python**
+- 🐳 Learning **Docker** and containerization deeply
+- 🐧 Practicing **Linux system administration** on VMs
+- 🚀 Building backend projects with **FastAPI** and **Node.js**
+- 📚 Preparing for **junior DevOps engineer** roles
+
+---
+
+## 📈 My GitHub Stats
+
+![你的 GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true)  
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true)  
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight&hide_border=true)
+
+*(Замените `YOUR_USERNAME` на твой реальный никнейм GitHub)*
+
+---
+
+## 📬 Connect With Me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/YOUR_LINKEDIN/)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/YOUR_TWITTER/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL@gmail.com)
+
+---
+
+> 💪 **Girl/Man from Plovdiv** building the future, one container at a time 🐳  
+> ⚡ Fitness enthusiast & gamer when not coding 💪🎮
