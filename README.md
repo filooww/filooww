@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Ivan Pavlenko
 
-🚀 Junior Developer turning into **DevOps Engineer**  
+🚀 **DevOps Engineer**  
 📍 Based in **Plovdiv, Bulgaria**  
 💻 Passionate about **Linux**, **Docker**, **Python**, **Bash**, and **automation**
 
