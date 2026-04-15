@@ -43,16 +43,6 @@
 
 ---
 
-## 📈 My GitHub Stats
-
-![你的 GitHub Stats](https://github-readme-stats.vercel.app/api?username=filooww&show_icons=true&theme=tokyonight&hide_border=true)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=filooww&layout=compact&theme=tokyonight&hide_border=true)  
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=filooww&theme=tokyonight&hide_border=true)
-
-
-
----
-
 ## 📬 Connect With Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ivan-pavlenko-devops)
