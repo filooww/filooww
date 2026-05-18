@@ -1,9 +1,3 @@
-<!--
-  Этот файл — улучшенный README для профиля github.com/filooww/filooww
-  Положи его в репозиторий filooww/filooww (имя репо совпадает с username).
-  Все ссылки и плейсхолдеры помечены <!-- TODO --> — замени перед публикацией.
--->
-
 <h1 align="center">Hi, I'm Ivan Pavlenko</h1>
 <p align="center">
   <b>DevOps Engineer · Plovdiv, Bulgaria</b><br>
