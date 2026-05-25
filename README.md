@@ -1,8 +1,8 @@
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:16213e&height=160&section=header&text=Ivan%20Pavlenko&fontSize=40&fontColor=fff&fontAlignY=45&desc=DevOps%20Engineer&descSize=16&descAlignY=65)
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:16213e&height=120&section=header&text=Ivan%20Pavlenko&fontSize=40&fontColor=fff&fontAlignY=42&desc=DevOps%20Engineer&descSize=16&descAlignY=68)
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=6EA8FE&center=true&vCenter=true&width=550&lines=Terraform+%7C+Ansible+%7C+AWS+%7C+Docker;Building+infrastructure+that+deploys+itself;CI%2FCD+%7C+IaC+%7C+Linux" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=6EA8FE&center=true&vCenter=true&width=600&lines=Automating+everything+from+commit+to+prod;Pipelines+that+pipeline+themselves;Infrastructure+as+code%2C+not+as+afterthought" alt="Typing SVG" />
 
 <br/>
 
@@ -35,13 +35,13 @@
 
 ### 🚀 Projects
 
-**[devops-iac-aws](https://github.com/filooww/devops-iac-aws)** ![CI/CD](https://github.com/filooww/devops-iac-aws/actions/workflows/ci-cd.yml/badge.svg)  
+#### [devops-iac-aws](https://github.com/filooww/devops-iac-aws) &​nbsp; ![CI/CD](https://github.com/filooww/devops-iac-aws/actions/workflows/ci-cd.yml/badge.svg?branch=main)
 Full IaC pipeline on AWS — Terraform provisions VPC + EC2, Ansible configures the server, GitHub Actions deploys on every push.
 
-**[auto-vpn](https://github.com/filooww/auto-vpn)**  
+#### [auto-vpn](https://github.com/filooww/auto-vpn)
 Corporate VPN for macOS that connects silently on login and auto-reconnects using TOTP. Zero manual steps.
 
-**[crm-free-agents](https://github.com/filooww/crm-free-agents)**  
+#### [crm-free-agents](https://github.com/filooww/crm-free-agents)
 Bookmarklet that shows real-time agent availability by parsing DayPilot Scheduler directly from the DOM.
 
 ---
