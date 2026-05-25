@@ -8,9 +8,6 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ivan-pavlenko-devops)
 [![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vanapawlenco25@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/filooww)
-
-![Profile Views](https://komarev.com/ghpvc/?username=filooww&color=00d9ff&style=for-the-badge&label=PROFILE+VIEWS)
 
 </div>
 
@@ -63,8 +60,8 @@
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=filooww&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=filooww&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+<!-- <img height="180" src="https://github-readme-stats.vercel.app/api?username=filooww&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=filooww&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" /> -->
 
 <br/>
 
