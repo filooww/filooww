@@ -1,10 +1,8 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=600&lines=Ivan+Pavlenko;DevOps+Engineer;Terraform+%7C+Ansible+%7C+AWS+%7C+Docker" alt="Typing SVG" />
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:16213e&height=160&section=header&text=Ivan%20Pavlenko&fontSize=40&fontColor=fff&fontAlignY=45&desc=DevOps%20Engineer&descSize=16&descAlignY=65)
 
-<br/>
-
-*Building infrastructure that deploys itself.*
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=6EA8FE&center=true&vCenter=true&width=550&lines=Terraform+%7C+Ansible+%7C+AWS+%7C+Docker;Building+infrastructure+that+deploys+itself;CI%2FCD+%7C+IaC+%7C+Linux" alt="Typing SVG" />
 
 <br/>
 
@@ -15,7 +13,7 @@
 
 ---
 
-### Stack
+### 🛠️ Stack
 
 **Infrastructure**
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
@@ -35,7 +33,7 @@
 
 ---
 
-### Projects
+### 🚀 Projects
 
 **[devops-iac-aws](https://github.com/filooww/devops-iac-aws)** ![CI/CD](https://github.com/filooww/devops-iac-aws/actions/workflows/ci-cd.yml/badge.svg)  
 Full IaC pipeline on AWS — Terraform provisions VPC + EC2, Ansible configures the server, GitHub Actions deploys on every push.
@@ -56,5 +54,7 @@ Bookmarklet that shows real-time agent availability by parsing DayPilot Schedule
 <br/>
 
 <img src="https://streak-stats.demolab.com?user=filooww&theme=github-dark-blue&hide_border=true" />
+
+![footer](https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:16213e&height=80&section=footer)
 
 </div>
