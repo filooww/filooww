@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=650&lines=Hi%2C+I'm+Ivan+%F0%9F%91%8B;DevOps+Engineer;Kubernetes+%C2%B7+GitOps+%C2%B7+Terraform;Ship+small%2C+ship+often%2C+roll+back+fast" alt="Hi, I'm Ivan — DevOps Engineer" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=650&lines=Hi%2C+I'm+Ivan+%F0%9F%91%8B;DevOps+Engineer;AWS+Certified+Solutions+Architect;Kubernetes+%C2%B7+GitOps+%C2%B7+Terraform;Ship+small%2C+ship+often%2C+roll+back+fast" alt="Hi, I'm Ivan — DevOps Engineer" />
 
 **DevOps Engineer** · Plovdiv, Bulgaria
 
@@ -8,6 +8,13 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ivan-pavlenko-devops)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:vanapawlenco25@gmail.com)
+
+<br/>
+
+<a href="https://www.credly.com/badges/dfcaf925-7ba3-45a1-bde6-13eb1d0873e5"><img src="https://images.credly.com/size/220x220/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png" width="110" alt="AWS Certified Solutions Architect – Associate" /></a>
+
+**AWS Certified Solutions Architect – Associate** · Oct 2026
+<br/><sub>[Verify on Credly](https://www.credly.com/badges/dfcaf925-7ba3-45a1-bde6-13eb1d0873e5)</sub>
 
 </div>
 
