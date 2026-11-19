@@ -41,8 +41,8 @@ flowchart TB
     direction LR
     vault[(Vault)] --> eso[External Secrets]
   end
-  ghcr -. new semver tag .-> iu
-  eso --> k8s
+  CI -. new semver tag .-> CD
+  SEC -- secrets --> CD
 ```
 
 - **Gitflow** with protected `main` / `develop`: merge only through a PR with a green `ci` check
