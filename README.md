@@ -28,13 +28,21 @@ A Django + PostgreSQL service running on a self-built 3-node Kubernetes cluster 
 CI only builds and publishes the image; the cluster pulls new versions on its own.
 
 ```mermaid
-flowchart LR
-  tag[git tag v1.2.3] --> ci[GitHub Actions<br/>build · lint · test · Trivy scan]
-  ci --> ghcr[(ghcr.io)]
-  ghcr -. new semver tag .-> iu[Argo CD Image Updater]
-  iu -- commit tag --> git[(django-gitops)]
-  git --> argo[Argo CD] --> k8s[Kubernetes]
-  vault[(Vault)] --> eso[External Secrets] --> k8s
+flowchart TB
+  subgraph CI["CI · GitHub Actions"]
+    direction LR
+    tag[git tag v1.2.3] --> build[build · lint · test · Trivy] --> ghcr[(ghcr.io)]
+  end
+  subgraph CD["CD · inside the cluster"]
+    direction LR
+    iu[Image Updater] --> repo[(django-gitops)] --> argo[Argo CD] --> k8s[Kubernetes]
+  end
+  subgraph SEC["Secrets"]
+    direction LR
+    vault[(Vault)] --> eso[External Secrets]
+  end
+  ghcr -. new semver tag .-> iu
+  eso --> k8s
 ```
 
 - **Gitflow** with protected `main` / `develop`: merge only through a PR with a green `ci` check
