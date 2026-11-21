@@ -24,8 +24,10 @@
 
 [**django-app**](https://github.com/filooww/django-app) · [**django-gitops**](https://github.com/filooww/django-gitops)
 
-A Django + PostgreSQL service running on a self-built 3-node Kubernetes cluster (Kubespray, arm64).
-CI only builds and publishes the image; the cluster pulls new versions on its own.
+![pipeline](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffilooww%2Fdjango-app%2Fbadges%2Fpipeline.json&cacheSeconds=300) ![cve](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffilooww%2Fdjango-app%2Fbadges%2Fcve.json&cacheSeconds=300) ![canary](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffilooww%2Fdjango-app%2Fbadges%2Fcanary.json&cacheSeconds=300) ![k8s](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffilooww%2Fdjango-app%2Fbadges%2Fk8s.json&cacheSeconds=300)
+
+A Django + PostgreSQL service deployed two ways: on a self-built 3-node Kubernetes cluster (Kubespray, arm64) and on AWS EC2 with Terraform and Ansible.
+CI only builds, scans and publishes the image; the cluster pulls new versions on its own and rolls back a bad release by itself. The badges above are live data from CI and the cluster.
 
 ```mermaid
 flowchart TB
@@ -35,7 +37,7 @@ flowchart TB
   end
   subgraph CD["CD · inside the cluster"]
     direction LR
-    iu[Image Updater] --> repo[(django-gitops)] --> argo[Argo CD] --> k8s[Kubernetes]
+    iu[Image Updater] --> repo[(django-gitops)] --> argo[Argo CD] --> ro[Rollouts canary] --> k8s[Kubernetes]
   end
   subgraph SEC["Secrets"]
     direction LR
@@ -48,6 +50,9 @@ flowchart TB
 - **Gitflow** with protected `main` / `develop`: merge only through a PR with a green `ci` check
 - **Pull-based CD**: CI has no access to the cluster or the GitOps repo
 - **Secrets in Vault**, delivered by External Secrets Operator; Git holds references only
+- **Canary with automatic rollback** (Argo Rollouts): 25% of pods → smoke test → 100%; a release that is not ready in 180 s is aborted and traffic stays on the stable version
+- **AWS EC2 deployment**: Terraform (VPC, security groups, EBS, IAM per server, S3 state with locking) and 7 idempotent Ansible roles; admin access through SSM, no SSH port open
+- **Security checks in CI**: Trivy for the image and for Terraform, TFLint, ansible-lint; PostgreSQL connections over TLS with CA verification; daily EBS snapshots and `pg_dump` to S3
 - **Helm chart** with migrations as a Job, probes, non-root read-only containers
 
 ---
