@@ -33,18 +33,23 @@ CI only builds, scans and publishes the image; the cluster pulls new versions on
 flowchart TB
   subgraph CI["CI · GitHub Actions"]
     direction LR
-    tag[git tag v1.2.3] --> build[build · lint · test · Trivy] --> ghcr[(ghcr.io)]
+    src[git tag / push to main] --> build[lint · test · Trivy] --> ghcr[(ghcr.io)]
   end
-  subgraph CD["CD · inside the cluster"]
+  subgraph K8S["Kubernetes · pull-based CD"]
     direction LR
-    iu[Image Updater] --> repo[(django-gitops)] --> argo[Argo CD] --> ro[Rollouts canary] --> k8s[Kubernetes]
+    iu[Image Updater] --> repo[(django-gitops)] --> argo[Argo CD] --> ro[Rollouts canary<br/>auto-rollback]
+  end
+  subgraph AWS["AWS EC2 · Terraform + Ansible"]
+    direction LR
+    tf[Terraform<br/>VPC · EC2 · EBS · IAM] --> ans[Ansible over SSM] --> ec2[Django + PostgreSQL]
   end
   subgraph SEC["Secrets"]
     direction LR
     vault[(Vault)] --> eso[External Secrets]
   end
-  CI -. new semver tag .-> CD
-  SEC -- secrets --> CD
+  CI -. semver tag .-> K8S
+  CI -. commit SHA .-> AWS
+  SEC -- secrets --> K8S
 ```
 
 - **Gitflow** with protected `main` / `develop`: merge only through a PR with a green `ci` check
